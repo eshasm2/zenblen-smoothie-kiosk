@@ -1,3 +1,4 @@
+# React + Supabase kiosk app for a smoothie ordering system — built for a technical interview
 # Zenblen Smoothie Kiosk
 
 Setup Instructions:
