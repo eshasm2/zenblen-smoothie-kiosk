@@ -1,28 +1,35 @@
 # Zenblen Smoothie Kiosk
 
-Setup Instructions:
+A full-stack smoothie ordering kiosk built with React and Supabase, developed as a take-home project for a technical interview. Simulates a self-service kiosk experience: browsing a menu, building an order, and an admin view for managing orders.
 
-1. Run the following command to install dependencies:
+## Features
+- Customer-facing menu and cart flow
+- Order submission and checkout
+- Admin dashboard for managing incoming orders
 
+## Tech Stack
+- React
+- React Router
+- Supabase (backend/data)
+- Axios
+
+## Setup
+
+1. Clone the repository
 ```bash
-npm install react react-router-dom supabase axios
+   git clone https://github.com/eshasm2/zenblen-smoothie-kiosk.git
+   cd zenblen-smoothie-kiosk
 ```
 
-2. Clone the repository
-   
-git clone [https://github.com/eshasm2/zenblen-smoothie-kiosk.git](https://github.com/eshasm2/smoothie-vending.git)
-
+2. Install dependencies
 ```bash
-cd zenblen-smoothie-kiosk
+   npm install
 ```
 
+3. Create a `.env` file in the root directory (see `.env.example` for required variables)
+
+4. Run the app
 ```bash
-npm start
+   npm start
 ```
-
-3. Access the app
-   
-Once the server is running, open the browser and go to http://localhost:3000.
-
-
-(Admin Password: admin123)
+   Open `http://localhost:3000` in your browser.
